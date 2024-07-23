@@ -1,0 +1,14 @@
+{
+  "firstName": "Jonathan",
+  "middleName": "Steven",
+  "lastName": "Cruz",
+  "vacancy": "test",
+  "email": "Jonathans.Cruzm@gmail.com",
+  "number": "3222437344",
+  "resume": "src\\main\\resources\\CV.pdf",
+  "keywords": "QA, Automation",
+  "dateOfAplication": "2024-22-07",
+  "notes": "Good Automation",
+  "consentToKeepData": "true",
+  "status": "Hired"
+}
