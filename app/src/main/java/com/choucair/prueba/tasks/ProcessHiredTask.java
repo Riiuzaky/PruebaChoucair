@@ -98,7 +98,13 @@ public class ProcessHiredTask implements Task {
                     Click.on(RecruitmentPage.BUTTON_SAVE),
 
                     WaitUntil.the(RecruitmentPage.BUTTON_CANDIDATES, isVisible()).forNoMoreThan(10).seconds(),
-                    Click.on(RecruitmentPage.BUTTON_CANDIDATES)
+                    Click.on(RecruitmentPage.BUTTON_CANDIDATES),
+                    WaitUntil.the(RecruitmentPage.ROW_CANDIDATE.of(
+                            employed.getVacancy(),
+                            validationName,
+                            employed.getDateOfAplication(),
+                            employed.getStatus()
+                    ), isVisible()).forNoMoreThan(10).seconds()
 
 
 

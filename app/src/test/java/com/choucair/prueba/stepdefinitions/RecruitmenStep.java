@@ -64,11 +64,11 @@ public class RecruitmenStep {
 
     @Then("can see the data of a new employed in the list  whit state Hired")
     public void canSeeTheDataOfANewEmployedInTheListWhitStateHired() {
-        /* theActorInTheSpotlight().should(
+        theActorInTheSpotlight().should(
           seeThat(
-            ValidationDataQuestion.validationData()
+            ValidationDataQuestion.isValidationData()
           )  
-        ); */
+        );
     }
 
 }

@@ -88,7 +88,7 @@ public class Employed {
         return status;
     }
     public void setStatus(String status) {
-        status = status;
+        this.status = status;
     }
 
 

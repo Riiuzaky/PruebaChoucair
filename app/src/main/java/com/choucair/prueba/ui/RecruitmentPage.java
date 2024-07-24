@@ -71,7 +71,7 @@ public class RecruitmentPage extends PageObject {
     public static final Target BTN_NEXT_PAGE = Target.the("button next page").locatedBy("//div[@class='orangehrm-recruitment-status']/p[@class='oxd-text oxd-text--p oxd-text--subtitle-2' and contains(. , '{0}')]");
 
 
-    public static final Target ROW_CANDIDATE = Target.the("row candidate").locatedBy("//div[@class='oxd-table-row oxd-table-row--with-border' and     .//div[text()='{0}'] and     .//div[text()='{0}'] and     .//div[text()='{0}']  and //div[text()='{0}']]");
+    public static final Target ROW_CANDIDATE = Target.the("row candidate").locatedBy("(//div[@class='oxd-table-row oxd-table-row--with-border' and .//div[text()='{0}'] and .//div[text()='{1}'] and .//div[text()='{2}']]//div[text()='{3}'])[1]");
 
 
     // contratacion
